@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Document Generator</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="generator.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <h2>Text Generator</h2>
+    <form class="input" method="post">
+      <input type="file" name="file" value=""><br><br>
+      <input type="submit" name="generate" value="Generate Text"><br><br>
+    </form>
+    <h4>Output:</h4>
+    <form class="output" method="post">
+      <textarea name="output" rows="8" cols="80" style="resize: none;"></textarea>
+      <input type="text" name="number" value="" placeholder="Phone number (optional)">
+      <input type="submit" name="send" value="Send">
+    </form>
+    <a href="index.html">Generate file</a>
+  </body>
+</html>
